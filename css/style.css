@@ -1,16 +1,11 @@
 body
 {
-	/* background-color: #F2F4F3;*/
-	/* background-color: #A9927D; */
 	background-color: #EEEEFF;
 }
 nav
 {
-	/* background-color: #E5E5E5;*/
-	/* background-color: #E5D6C9; */
-	/* padding: 12px; */
 	padding-top: 6px;
-	margin-bottom: 3px;
+	margin: 3px;
 }
 h1
 {
@@ -66,10 +61,7 @@ form
 	text-align: center;
 	width: 50%;
 	padding: 8px;
-	/* background-color: #E5D6C9; */
 	font-style: italic;
-	/* border: solid; */
-	/* border-width: 1px; */
 	font-weight: 900px;
 }
 
@@ -91,21 +83,22 @@ input[type=button]:hover, input[type=text]:focus
 	background-color: #E5E5E5;
 }
 
-.overlayBottomLeft
+
+.overlay-layer
 {
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
+	display: flex;
+	width: auto;
 }
 
-.shiftRight
+.overlay-item
 {
-	left: 50px;
+	flex-basis: 10%;
+	width: 100%;
 }
 
-.overlayImage
+/* .overlayImage
 {
-	/* width: 45px; */
+	width: 45px;
 	max-width: 100%;
 	height: auto;
 }
@@ -115,6 +108,8 @@ input[type=button]:hover, input[type=text]:focus
 	left: -24px;
 	bottom: 30px;
 }
+*/
+
 .header
 {
 	/*background-color: #E5E5E5;*/
@@ -142,7 +137,7 @@ input[type=button]:hover, input[type=text]:focus
 	margin-right: auto;
 	width: 25%;
 }
-.centerText
+.center-text
 {
 	text-align: center;
 }
@@ -153,7 +148,7 @@ input[type=button]:hover, input[type=text]:focus
 	margin-bottom: 6px;
 	position: static;
 }
-.bodyBlock
+.body-block
 {
 	/*background-color: #E5E5E5;*/
 	/* background-color: #E5D6C9; */
@@ -177,7 +172,7 @@ input[type=button]:hover, input[type=text]:focus
 	margin: 0px;
 }
 
-#projectsTable
+#projects-table
 {
 	border: solid;
 	border-width: 0.5px;
