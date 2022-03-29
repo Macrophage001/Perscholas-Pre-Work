@@ -11,17 +11,42 @@ body
 }
 nav
 {
-	padding-top: 6px;
-	margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-a
+.nav-links
+{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.nav-links ul li a
 {
 	text-decoration: none;
 	color: #425e6b;
+	font-size: 16px;
 }
-a:hover
+.nav-links ul li::after
 {
-	color: #2a3b42;
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #5887c4;
+    display: block;
+	margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after
+{
+	width: 100%;
 }
 
 h1, h2, h3, p
@@ -101,24 +126,20 @@ input[type=radio]
 .body-block
 {
 	background-color: #dce3e9;
-	padding: 24px;
+	padding: 22px;
 	margin: 6px;
 }
 
-.footer
+.header
 {
-	display: flex;
-	position: relative;
-	align-items: center;
-	margin: 6px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
-.overlay-item
+.body-block p
 {
-	flex: 10%;
-	width: 100%;
-	height: 100%;
-	padding: 8px;
+	text-align: center;
+	font-style: italic;
 }
 
 #projects-table
@@ -154,7 +175,29 @@ input[type=radio]
 
 .footer
 {
+	display: flex;
+	position: relative;
+	align-items: center;
+	margin: 6px;
+
 	background-color: #dce3e9;
 	width: auto;
 	height: 70px;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.footer nav a img
+{
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.overlay-item
+{
+	flex: 10%;
+	width: 100%;
+	height: 100%;
+	padding: 8px;
 }
