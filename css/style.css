@@ -2,21 +2,13 @@
 {
 	margin: 0;
 	padding: 0;
-
-	font-family: 'Helvetica';
+	font-family: sans-serif;
 }
 body
 {
-<<<<<<< HEAD
-	background-color: #EEEEFF;
-}
-nav
-{
-	padding-top: 6px;
-	margin: 3px;
-=======
 	background-color: white;
 }
+
 nav
 {
     display: flex;
@@ -27,6 +19,7 @@ nav
 {
     flex: 1;
     text-align: center;
+	margin-top: 8px;
 }
 .nav-links ul li
 {
@@ -39,23 +32,12 @@ nav
 {
 	text-decoration: none;
 	color: #425e6b;
-	font-size: 16px;
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
+	font-size: 13px;
 }
-.nav-links ul li::after
+.nav-links ul li a:hover
 {
-    content: '';
-    width: 0;
-    height: 2px;
-    background: #5887c4;
-    display: block;
-	margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover::after
-{
-	width: 100%;
+	color: #223036;
+	transition: 0.1s;
 }
 
 h1, h2, h3, p
@@ -100,11 +82,6 @@ form
 	width: 50%;
 	font-weight: bold;
 	padding: 8px;
-<<<<<<< HEAD
-	font-style: italic;
-	font-weight: 900px;
-=======
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
 }
 
 input
@@ -131,26 +108,6 @@ input[type=radio]
 	margin: 4px;
 }
 
-<<<<<<< HEAD
-
-.overlay-layer
-{
-	display: flex;
-	width: auto;
-}
-
-.overlay-item
-{
-	flex-basis: 10%;
-	width: 100%;
-}
-
-/* .overlayImage
-{
-	width: 45px;
-	max-width: 100%;
-	height: auto;
-=======
 .seperator
 {
 	border-top: solid;
@@ -168,7 +125,6 @@ input[type=radio]
 {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
 }
 
 .body-block p
@@ -176,14 +132,8 @@ input[type=radio]
 	text-align: center;
 	font-style: italic;
 }
-<<<<<<< HEAD
-*/
-
-.header
-=======
 
 #projects-table
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
 {
 	border: solid;
 	border-width: 0.5px;
@@ -206,13 +156,6 @@ input[type=radio]
 	margin-right: auto;
 	width: 25%;
 }
-<<<<<<< HEAD
-.center-text
-{
-	text-align: center;
-}
-=======
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
 .project
 {
 	background-color: #E5D6C9;
@@ -220,12 +163,8 @@ input[type=radio]
 	margin-bottom: 6px;
 	position: static;
 }
-<<<<<<< HEAD
-.body-block
-=======
 
 .footer
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
 {
 	display: flex;
 	position: relative;
@@ -246,11 +185,7 @@ input[type=radio]
 	border: 2px solid white;
 }
 
-<<<<<<< HEAD
-#projects-table
-=======
 .overlay-item
->>>>>>> f1931566ed81544c3a928589d91c5942f5542774
 {
 	flex: 10%;
 	width: 100%;
