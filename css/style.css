@@ -49,7 +49,7 @@ h1, h2, h3
 	margin: auto;
 	padding: 8px;
 	text-align: center;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 p
 {
@@ -69,9 +69,8 @@ ul
 {
 	text-transform: capitalize;
 	padding: 12px;
-	margin: auto;
-	width: 50%;
 }
+
 form
 {
 	position: static;
@@ -86,7 +85,7 @@ form
 	padding: 8px;
 }
 
-input
+form input
 {
 	position: static;
 	width: auto;
@@ -94,20 +93,16 @@ input
 	margin: 4px;
 	text-align: center;
 }
-input[type=button]
+form input[type=button]
 {
 	color: black;
 	background-color: #F2F4F3;
 	padding: 5px;
 	margin: 8px;
 }
-input[type=button]:hover, input[type=text]:focus
+form input[type=button]:hover, form input[type=text]:focus
 {
 	background-color: #E5E5E5;
-}
-input[type=radio]
-{
-	margin: 4px;
 }
 
 .seperator
@@ -120,15 +115,13 @@ input[type=radio]
 {
 	background-color: #dce3e9;
 	padding: 22px;
-	margin: 6px;
-}
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 8px;
+	width: 50%;
 
-.header
-{
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-radius: 5px;
 }
-
 .body-block p
 {
 	text-align: center;
@@ -173,24 +166,25 @@ input[type=radio]
 	display: flex;
 	position: relative;
 	align-items: center;
-	margin: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 995px;
+	width: 100%;
 
 	background-color: #dce3e9;
-	width: auto;
 	height: 70px;
 
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-radius: 5px;
 }
 
-.overlay-item
+.social-link
 {
 	flex: 10%;
 	width: 100%;
 	height: 100%;
 	padding: 8px;
 }
-.overlay-item img
+.social-link img
 {
 	border-radius: 50%;
 	border: 2px solid white;	
