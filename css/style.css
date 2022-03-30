@@ -199,8 +199,18 @@ form input[type=button]:hover, form input[type=text]:focus
 
 .social-link img
 {
-	width: 64px;
-	height: 64px;
+	width: 48px;
+	height: 48px;
 	border-radius: 50%;
 	border: 4px solid #c3d4e2;
+}
+
+.social-logo
+{
+	background: white;
+	position:absolute;
+	left: 65%;
+	bottom: 0%;
+	max-width: 20px;
+	max-height: 20px;
 }
