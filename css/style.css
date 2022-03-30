@@ -69,6 +69,8 @@ ul
 {
 	text-transform: capitalize;
 	padding: 12px;
+	margin: auto;
+	width: 50%;
 }
 form
 {
@@ -137,6 +139,8 @@ input[type=radio]
 {
 	border: solid;
 	border-width: 0.5px;
+	margin: auto;
+	width: 75%;
 }
 
 #intro
