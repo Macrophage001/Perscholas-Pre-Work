@@ -100,7 +100,7 @@ form input[type=button]
 	background-color: transparent;
 	padding: 5px;
 	width: 25%;
-	border-radius: 5px;
+	border-radius: 5px
 }
 form input[type=button]:hover, form input[type=text]:focus
 {
