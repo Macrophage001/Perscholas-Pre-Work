@@ -150,7 +150,7 @@ form input[type=button]:hover, form input[type=text]:focus
 	text-align: center;
 	font-style: italic;
 }
-.body-block-data
+.body-block-data /* CLASS */
 {
 	display: flex;
 	margin: auto;
@@ -171,7 +171,7 @@ form input[type=button]:hover, form input[type=text]:focus
 	padding: 0;
 }
 
-#intro
+#intro /* ID */
 {
 	font-style: italic;
 }
